@@ -115,6 +115,10 @@
 
 // let arr = [1, 4, 9, 16]
 
+//MAP CONVERTS EVERY ELEMENT IN AN ARRAY TO YOUR SELECTED OPTION USING array.map(element/index => element *x)
+// OR WHAT EVER YOU WANT SUCH AS => 'dog'   or   =>   * 5  also right of the arrow (=> *return*_____) has an invisable return
+// AND IF USING => {XYZ}  THE INVISABLE RETURN IS NOW GONE AND MUST BE TYPED WITHING THE CURLIES ex. {return xyz}
+
 // let newArr = arr.map((i) => {
 //     console.log(i)
 //     return `dog`;
@@ -186,7 +190,7 @@
 //       console.log(users[i]);
 //       if (users[i].password === password) {
 //         console.log(`log the user in- the details are corrects`);
-//       } 
+//       }
 //       else {
 //         console.log(`Password is incorrect, try again`);
 //       }
@@ -204,7 +208,7 @@
 // }
 
 // register({
-//     username: `Mike`, 
+//     username: `Mike`,
 //     password: `miKe1@3$`,
 //     email: `mike@mike.com`,
 //     subscriptionStatus: `Normal`,
@@ -233,6 +237,520 @@
 //     document.querySelector(".title").style.color = "red"
 // }
 
-function toggleDarkMode() {
-    document.querySelector('body').classList.toggle("dark-theme")
+// function toggleDarkMode() {
+//     document.querySelector('body').classList.toggle("dark-theme")
+// }
+
+// BEGGINER QUESTIONS BEGGINER QUESTIONS BEGGINER QUESTIONS BEGGINER QUESTIONS BEGGINER QUESTIONS
+
+
+// Question 1 888888888888888888888888888888888888888888  Function that returns the sum of two numbers
+
+/* function sumOfTwoNumbers(x,y) {
+    return x + y;
 }
+
+console.log(sumOfTwoNumbers(-4,4)); */
+
+
+// function sum(x, y) {
+//     return x+y;
+// }
+
+// console.log(sum(7,3))
+
+// const sum = (x, y) => {return x+y}
+
+// console.log(sum(3,5))
+
+
+// Question 2 888888888888888 Function that converts hours to seconds
+
+/* function hoursToSeconds(num) {
+    return num * 60 * 60;
+}
+
+console.log(hoursToSeconds(5)); */
+
+/* const hoursToSeconds = num => num * 60 * 60;
+
+console.log(hoursToSeconds(5));
+ */
+
+// function hToS (h) {
+//     return h * 60 * 60;
+// }
+
+// console.log(hToS(24))
+
+// const hToS = h => {return h * 60 * 60}
+
+// console.log(hToS(24))
+
+
+//Question 3 Make a function that calculates the perimeter of a rectangle 88888888888888888888888
+
+
+/* function rectanglePerimeter( width, height) {
+    return (width + height) * 2 ;
+}
+
+console.log(rectanglePerimeter(3,2)); */
+
+/* const rectanglePerimeter = (width, height) => (width + height) *2;
+
+console.log(rectanglePerimeter(5,2)); */
+
+// function perimeter (w, h) {
+//     return (w + h) * 2
+// }
+
+// console.log(perimeter(2,9))
+
+// const perimeter2 = (w, h) => {return (w + h) * 2}
+
+// console.log(perimeter2(2,9))
+
+
+//question 4 function to calculate the area of a triangle888888888888888888888888888888
+
+/* function triArea( w, h) {
+    return w * h / 2
+}
+
+console.log(triArea(4,5)); */
+
+/* const triArea = (w, h) => w*h/2;
+
+console.log(triArea(4,5)); */
+
+// function traingleArea (h,w) {
+//     return (h * w) / 2;
+// }
+
+// console.log(traingleArea(20,20))
+
+// const traingleArea = (w, h) => {return (w * h) / 2}
+
+// console.log(traingleArea(10,10));
+
+
+//question 5 add frontened to the end of a string
+
+/* function addFront(elem) {
+    return elem + "Frontend"
+}
+
+console.log(addFront("heello ")); */
+
+/* const addEnd = elem => elem + "Frontend"
+
+console.log(addEnd("I like pie ")); */
+
+
+
+
+
+
+// function stringAddon(str) {
+//     return str + `Frontend`;
+// }
+
+// for number situations
+
+// function strAddon (number) {
+//     return 4 + (+number);  the plus infront oif the number will convert the inout to a number
+// }
+
+// console.log(stringAddon(`Orange`));
+
+// const strAddon = str => {return str + `Frontend`}
+
+// console.log(strAddon(`apple`));
+
+// question 6 return true if the sum of the two numbers is above 100 888888888888888888888888888888
+
+function ifAbove100( num1, num2) {
+    return num1 + num2 > 100
+}
+
+console.log(ifAbove100(0,0));
+
+
+
+
+
+
+
+
+
+
+// function over100(num1, num2) {
+//     if (num1 + num2 > 100) {
+//         return true
+//     }
+//     return false
+// }
+
+// console.log(over100(100,-50));
+
+// const over100 = (x, y) => x + y > 100 ? true : false;
+
+// console.log(over100(100,-50));
+
+
+// question 7 less than or equal to 0 88888888888888888888888888888888888888888888888888888888
+
+// function lessThanOrEqual0 (number) {
+//     return (+number) <= 0
+// }
+
+// console.log(lessThanOrEqual0(-2));
+
+// const lessThanOrEqual0 = number => (+number) <= 0 ? true : false;
+
+// console.log(lessThanOrEqual0(50));
+
+// question 8 return the oppisite boolean 888888888888888888888888888888888888888888888888888
+
+// function oppistie(boolean) {
+//     return !boolean;
+// }
+
+// console.log(oppistie(false));
+
+
+//question 9 is not 0, function that returns true to all elements except 0 888888888888888888
+
+// function not0 (x) {
+//     return x !== 0;
+// }
+
+// console.log(not0(1));
+
+// const not0 = x => x !== 0 ? true : false;
+
+// console.log(not0(0));
+
+// question 10 calculate the remainder after dividing 8888888888888888888888888888888888
+
+// function remainder (x, y) {
+//     return x % y;
+// }
+
+// console.log(remainder(9,8));
+
+
+// question 11 is the number odd 888888888888888888888888888888888888888888888888888
+
+// function isOdd(num) {
+//     return (+num) % 2 !== 0;
+// }
+
+// console.log(isOdd(4));
+
+// const isOdd = num => (+num) % 2 !== 0 ? true : false;
+
+// console.log(isOdd(4));
+
+
+// question 12 even number return 1 odd numer return -1 888888888888888888888888888888888888
+
+// function evenOrOdd (num) {
+//     if ((+num) % 2 === 0) {
+//         return 1
+//     } 
+//     return -1
+// }
+
+// console.log(evenOrOdd(789));
+
+// const evenOrOdd = num => num % 2 === 0 ? 1 : -1;
+
+// console.log(evenOrOdd(8));
+
+//question 13 check to see if a user is subscribed ANDDDD logged in 888888888888888888888888888888
+
+// let subscribed = true;
+// let loggedIn = false;
+
+// function subAndLog () {
+//     return subscribed && loggedIn;
+// }
+
+// console.log(subAndLog());
+
+// const subAndLog = () => subscribed && loggedIn ? true : false;
+
+// console.log(subAndLog());
+
+
+//question 14 Check to see if the user is subbed OR logged in
+
+// let subscribed = false;
+// let loggedIn = false;
+
+// function subOrLog () {
+//     return subscribed || loggedIn;
+// }
+
+// console.log(subOrLog());
+
+// const subOrLog = () => subscribed || loggedIn ? true : false ;
+
+// console.log(subOrLog());
+
+
+
+
+
+
+// MEDIUM QUESTIONS MEDIUM QUESTIONS MEDIUM QUESTIONS MEDIUM QUESTIONS MEDIUM QUESTIONS MEDIUM QUESTIONS 
+
+
+
+
+
+
+// Question 1 Filter ouit falsey, if the first values is falsey return the second value.
+
+// function falseyFilter (elem1, elem2) {
+//     if(!elem1) {
+//         return elem1
+//     }
+//         return elem2
+// }
+
+// console.log(falseyFilter(true , `Dog`));
+
+// const falseyFilter = (elem1, elem2) => !elem1 ? elem1 : elem2;
+
+// console.log(falseyFilter(true, `gdog`));
+
+// Question 2 Return the length of any givven array 88888888888888888888888888888888888888888888888888
+
+// let arr = [5,1,7,6]
+
+// function indexCounter(array) {
+//     return array.length;
+// }
+
+// console.log(indexCounter(arr));
+
+
+// question 3 Given an array return the last element 88888888888888888888888888888888888888888888888888
+
+// let arr = [2,`dog`, 4, 2]
+
+// function lastArrIndex (array) {
+//     return array[array.length - 1];
+// }
+
+// console.log(lastArrIndex(arr));
+
+
+// question 4 Given an array return the sum of every element 888888888888888888888888888888888888888
+
+// let array = [2,2,2,2]
+
+// function arrSum(arr) {
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         sum = sum + arr[i]
+//     }
+//     return sum
+// }
+
+// console.log(arrSum(array));
+
+
+// question 5 add up the numbers from a given single number if 4 you will add 1+2+3+4 up to that number.
+
+// function progressiveSum (num) {
+//     let sum = 0;
+//     for ( let i = 1; i <= num; i++) {
+//         sum = sum + i 
+//     }
+//     return sum;
+// }
+
+// console.log(progressiveSum(5));
+
+
+//question 6 given a number in seconds return this number in mm:ss format 8888888888888888888888888
+
+// function calcTime (num) {
+//     let timerMinuets = Math.floor(num / 60)
+//     let timerSeconds = num % 60
+//     if (timerMinuets.toString().length === 0) {
+//         return`00:${timerSeconds}`
+//     }
+//     else if (timerMinuets.toString().length === 1) {
+//         return `0${timerMinuets}:${timerSeconds}`
+//     }
+//     else {
+//         return `${timerMinuets}:${timerSeconds}`
+//     }
+// }
+
+// console.log(calcTime(50));
+
+
+// question 7 find the largest number in a given array 888888888888888888888888888888888888888888888
+
+// let array = [12,10,-20,50,600,1,87,1,2,400]
+
+// function getMax(arr) {
+//     let max = arr[0];
+//     for (let i = 1; i < arr.length; i++) {
+//         if (arr[i] > max){
+//             max = arr[i];
+//         }
+//     }
+//     return max;
+// }
+
+// console.log(getMax(array));
+
+
+// question 8 reverse a given string  3 different methods, incrementing for, decrementing for, array reverse  8888888888888888888888888888888888888888888888888888888888888888
+
+// let string1 = `abc`;
+
+// function reverseString (str) {
+//     let string = ``;
+//     for (let i = 0; i < str.length; i++) {
+//        string += str[str.length-(i+1)]
+//     }
+//     return string;
+// }
+
+/* let string = `abc`
+
+function reverseString (str) {
+    let string = ``
+    for (let i = 0; i < str.length; i++){
+        string = str[i] + string
+    }
+    return string;
+}
+
+console.log(reverseString(string)); */
+
+// console.log(reverseString(string1));
+
+// let string1 = `this is cool`;
+
+// function reverseString (str) {
+//     let string = ``
+//     for (let i = str.length - 1; i >= 0; i--) {
+//         string += str[i]
+//     }
+//     return string
+// }
+
+// console.log(reverseString(string1));
+/* 
+let string1 = `This is cool`
+
+function reverseString (str) {
+    return str.split(``).reverse().join(``);
+}
+
+console.log(reverseString(string1));
+ */
+
+
+// question 9 turn ever element of an array to 0 using for loop, array 'fill', and array 'map'. 888888888888888888888888888888888888888888888888888888888
+
+/* let array = [5,4,7,8,0,1,7]
+
+function convertToZeros (arr) {
+    return arr.map(elem => 0);
+}
+
+console.log(convertToZeros(array));  */
+
+
+/* let array = [5,5,7,1,2,6,98,1]
+
+function convertToZeros (arr) {
+    let zeros = []
+    for (let i = 0; i < arr.length; i++) {
+        zeros.push(arr[i] = 0)
+    }
+    return zeros;
+}
+
+console.log(convertToZeros(array)); */
+
+/* let array = [1,2,3,4,5,6,7,8,9]
+
+function convertToZeros (arr) {
+    return arr.fill(0)
+    
+}
+
+console.log(convertToZeros(array)); */
+
+
+//question 10 Filter out all apples using a for loop and the .filter method of the arrays 8888888888888
+
+/* let array = [`Banana`, `Tomato`, `Orange`,]
+
+function removeApples (arr) {
+    let noApples = [];
+    let lowerArr = arr.map (i => i.toLowerCase())
+    for (let i = 0; i < arr.length; i++) {
+        if (lowerArr[i] !==`apple`) {
+            noApples.push(arr[i])
+        }
+    }
+    return noApples
+}
+
+console.log(removeApples(array)); */
+
+/* let array = [`Banana`, `Tomato`, `Orange`,`Apple`]
+
+function removeApples (arr) {;
+    return arr.filter(i => i.toLowerCase() !== `apple`)
+}
+
+console.log(removeApples(array)); */
+
+
+// question 11 Filter out all the falsey values in an array using a for loop and array .filter 8888888888888
+
+/* let array = ["",[], undefined, "0"]
+
+function filterOutFalsey(arr) {
+    let notFalsey = [];
+    for (let i = 0; i < arr.length; i++) {
+        if (!arr[i] !== true ){
+            notFalsey.push(arr[i])
+        }
+    }
+    return notFalsey;
+}
+
+console.log(filterOutFalsey(array)); */
+
+/* let array = ["",[], undefined, "0"]
+
+function filterOutFalsey(arr) {
+    return arr.filter(i => !i !== true)
+}
+
+console.log(filterOutFalsey(array)); */
+
+
+// question 12 console log truthy values as "true" and Falsey values as "false" 888888888888888888888888888888
+
+/* let array = [null, undefined, "David", "f", []];
+
+function converToBoolean(arr) {
+    return arr.map(i => !!i)
+}
+
+console.log(converToBoolean(array)); */
